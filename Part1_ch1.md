@@ -30,3 +30,15 @@ How to describe the performance of a system?
       
   - High percentiles of response times, also known as *tail latencies*, are important because they directly affect users’ experience of the service. 
       
+#### Maintainability
+  - Operability
+  
+        Make it easy for operations teams to keep the system running smoothly.
+  - Simplicity
+  
+        - Make it easy for new engineers to understand the system, by removing as much complexity as possible from the system. (Note this is not the same as      simplicity of the user interface.)
+        - abstraction can help with simplicity
+        
+  - Evolvability
+  
+        Make it easy for engineers to make changes to the system in the future, adapting it for unanticipated use cases as requirements change. Also known as    extensibil‐ ity, modifiability, or plasticity.
