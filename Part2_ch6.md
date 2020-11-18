@@ -27,6 +27,7 @@ The main reason for wanting to partition data is scalability. Different partitio
       - 需要认真选择key range 以防出现hotspot，比如timestamp 可能easy search but one day's partition be a hot spot (**Risk of skew and hot spots)
     - Partitioning by Hash of Key
       - Should use a hash function not that hard, but give you consistent result of hashing (Java's Object.hashCode() is not!!)
-      - This technique is good at distributing keys fairly among the partitions. The partition boundaries can be evenly spaced, or they can be chosen pseudorandomly (in which case the technique is sometimes known as *consistent hashing*, but better not to use this word).
+      - This technique is good at distributing keys fairly among the partitions. The partition boundaries can be evenly spaced, or they can be chosen pseudorandomly (in which case the technique is sometimes known as *consistent hashing*, but better not to use this word)
+      - However this way we lose a nice property of key-range partitioning: the ability to do efficient range queries.
       
       
