@@ -121,5 +121,5 @@ asynchronous replication is nevertheless widely used(尽管如此， 还是常�
                 
                 - 如果在不同的datacenter 需要route 去含leader的那个
        一些其他的问题：
-                - user同时在不同device 上登陆， 很可能去不同的timestamp， 需要centralized ， data center 也需要是一个
+                - user同时在不同device 上登陆， 很可能去不同的timestamp， 需要centralized ， data center 也需要是同一个
 
