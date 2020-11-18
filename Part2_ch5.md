@@ -102,6 +102,13 @@ asynchronous replication is nevertheless widely used(尽管如此， 还是常�
   很多时候会有bug的担忧，但比较灵活，所以还是不少情况在用
   
   
-  
+**Problems with Replication Lag**  
+    
+   之前我们在讨论的这种适合read heavy，多些followers的 但是就必须要Asyn 的 不然一个跪了分分钟gg，那么就会有Inconsistency 可能最终consitent **“eventual consistency”**
+   但是我们无法忽略这里的恶果
+   下面讨论一下三个主要问题和解决方法
+   
+   - Reading Your Own Writes
+   
    
 
