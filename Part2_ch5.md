@@ -109,6 +109,17 @@ asynchronous replication is nevertheless widely used(尽管如此， 还是常�
    下面讨论一下三个主要问题和解决方法
    
    - Reading Your Own Writes
-   
-   
+        
+        保证自己的write 总是会被read！ 其他user的update不保证
+        
+        一些操作方法：
+                - 让 user always read from leader（比如通过profile知道是在query user本ser的东西，所以只给leader 的结果）， 而其他的都从follower里面读取
+                - 但是user 操作太多就得不偿失，可以check timestamp
+                - 可以check follower的time stamp 只用那些timestamp ok的
+                   
+                   The timestamp could be a logical timestamp (something that indicates ordering of writes, such as the log sequence number) 
+                
+                - 如果在不同的datacenter 需要route 去含leader的那个
+       一些其他的问题：
+                - user同时在不同device 上登陆， 很可能去不同的timestamp， 需要centralized ， data center 也需要是一个
 
