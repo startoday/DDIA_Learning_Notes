@@ -18,11 +18,11 @@ Part [II](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_Intro
 
 [6. Partitioning](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch6.md)
 
-[7. Transaction](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch6.md)
+[7. Transaction](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch7.md)
 
-[8. The Trouble with Distributed Systems](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch6.md)
+[8. The Trouble with Distributed Systems](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch8.md)
 
-[9. Consistency and Consenus](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch6.md)
+[9. Consistency and Consenus](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch9.md)
 
 Part III
 
