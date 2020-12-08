@@ -27,4 +27,5 @@ Part [II](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_Intro
 Part III
 
 Random Notes
-[Random Notes](https://github.com/startoday/DDIA_Learning_Notes/blob/main/Part2_ch9.md)
+
+[Random Notes](https://github.com/startoday/DDIA_Learning_Notes/blob/main/randomNotes)
